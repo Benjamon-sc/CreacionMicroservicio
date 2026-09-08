@@ -3,6 +3,7 @@ package cl.nttdata.personas.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "personas")
@@ -14,18 +15,20 @@ public class Persona {
     private String apellido;
     private Integer edad;
     private String email;
+    private LocalDate fechaNac;
 
     
     public Persona() {
     }
 
     
-    public Persona(String rut, String nombre, String apellido, Integer edad, String email) {
+    public Persona(String rut, String nombre, String apellido, Integer edad, String email, LocalDate fechaNac) {
         this.rut = rut;
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.email = email;
+        this.fechaNac = fechaNac;
     }
 
     
@@ -67,5 +70,12 @@ public class Persona {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    public LocalDate getFechaNac() {
+        return fechaNac;
+    }
+
+    public void setFechaNac(LocalDate fechaNac) {
+        this.fechaNac = fechaNac;
     }
 }

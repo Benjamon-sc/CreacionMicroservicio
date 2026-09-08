@@ -1,2 +1,2 @@
-INSERT INTO personas (rut, nombre, apellido, edad, email) VALUES ('12345678-9', 'Carlos', 'González', 28, 'carlos@example.com');
-INSERT INTO personas (rut, nombre, apellido, edad, email) VALUES ('98765432-1', 'Maria', 'Soto', 32, 'maria@example.com');
+INSERT INTO personas (rut, nombre, apellido, edad, email, fecha_nac) VALUES ('12345678-9', 'Carlos', 'González', 28, 'carlos@example.com', '1996-05-15');
+INSERT INTO personas (rut, nombre, apellido, edad, email, fecha_nac) VALUES ('98765432-1', 'Maria', 'Soto', 32, 'maria@example.com', '1992-10-20');
