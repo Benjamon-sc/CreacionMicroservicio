@@ -70,14 +70,16 @@ Puedes probar las consultas usando **Postman**, **Insomnia**, **cURL** o directa
       "nombre": "Carlos",
       "apellido": "González",
       "edad": 28,
-      "email": "carlos@example.com"
+      "email": "carlos@example.com",
+      "fechaNac": "1996-05-15"
     },
     {
       "rut": "98765432-1",
       "nombre": "Maria",
       "apellido": "Soto",
       "edad": 32,
-      "email": "maria@example.com"
+      "email": "maria@example.com",
+      "fechaNac": "1992-10-20"
     }
   ]
   ```
@@ -94,7 +96,8 @@ Puedes probar las consultas usando **Postman**, **Insomnia**, **cURL** o directa
     "nombre": "Carlos",
     "apellido": "González",
     "edad": 28,
-    "email": "carlos@example.com"
+    "email": "carlos@example.com",
+    "fechaNac": "1996-05-15"
   }
   ```
 
@@ -111,7 +114,8 @@ Puedes probar las consultas usando **Postman**, **Insomnia**, **cURL** o directa
     "nombre": "Ana",
     "apellido": "Martínez",
     "edad": 22,
-    "email": "ana.martinez@example.com"
+    "email": "ana.martinez@example.com",
+    "fechaNac": "2002-03-10"
   }
   ```
 
